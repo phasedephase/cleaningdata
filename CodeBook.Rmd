@@ -5,12 +5,12 @@ output: html_document
 
 The tidy.txt file contains a table with the following data variables:
 
-subjectID -- the code representing each subject who took part of the study
+subjectID -- the code representing each subject who took part of the study<br>
 
 activityID -- a character string from activity_lables.txt key table providing a
 descriptive name of the activity the subject undertook.
 
-*-mean()-* -- all variables for which the mean was computed
+*-mean()-* -- all variables for which the mean was computed<br>
 *-std()-* -- all variables for which the standard deviation was computed
 
 The latter variable names were judged to already have self-explanatory names so
@@ -21,7 +21,7 @@ clarity of the data. Therefore, we have decided to respect the original
 choices made by the engineers who performed the study.
 
 Everything else remains aligned with the data provided by the original lab. The
-new data set produced is tidy as it respects the rules defining a tidy set and 
+new data set produced is tidy as it respects the rules defining a tidy data set and 
 to the extent possible:  each variable equals 1 column, each observation is a
 different row, the data set of all means is in 1 table, and the table is saved 
 1 one file.
