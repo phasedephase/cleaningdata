@@ -13,4 +13,4 @@ a new table with only the subjectID, activityID, and all the *-mean()- and
 *-std()* variables.  Finally, the activity numeric codes are replaced by 
 their equivalent English version as per the features.txt file key. And as a last
 step, all the means across all subjects and activities are selected and stored
-in a new subset table.
+in a new subset table which is then output to a file called:  tidy.txt.
