@@ -3,14 +3,22 @@ title: "CodeBook.MD"
 output: html_document
 ---
 
-The tidy.txt file contains a table with the following data variables:
+The tidy.txt file contains as per the engineers of the study stated, "features 
+selected from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and 
+tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured 
+at a constant rate of 50 Hz. Then they were filtered using a median filter and 
+a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to 
+remove noise. Similarly, the acceleration signal was then separated into body 
+and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ).""  The tidy
+table we generate consists of a subste of these features, namele:
 
-subjectID -- the code representing each subject who took part of the study
+
+subjectID -- the code representing each subject who took part of the study<br>
 
 activityID -- a character string from activity_lables.txt key table providing a
 descriptive name of the activity the subject undertook.
 
-*-mean()-* -- all variables for which the mean was computed
+*-mean()-* -- all variables for which the mean was computed<br>
 *-std()-* -- all variables for which the standard deviation was computed
 
 The latter variable names were judged to already have self-explanatory names so
@@ -21,7 +29,7 @@ clarity of the data. Therefore, we have decided to respect the original
 choices made by the engineers who performed the study.
 
 Everything else remains aligned with the data provided by the original lab. The
-new data set produced is tidy as it respects the rules defining a tidy set and 
+new data set produced is tidy as it respects the rules defining a tidy data set and 
 to the extent possible:  each variable equals 1 column, each observation is a
 different row, the data set of all means is in 1 table, and the table is saved 
 1 one file.
