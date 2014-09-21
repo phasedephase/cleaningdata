@@ -6,6 +6,7 @@ output: html_document
 The tidy.txt file contains a table with the following data variables:
 
 subjectID -- the code representing each subject who took part of the study
+
 activityID -- a character string from activity_lables.txt key table providing a
 descriptive name of the activity the subject undertook.
 
