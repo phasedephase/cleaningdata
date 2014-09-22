@@ -10,7 +10,7 @@ at a constant rate of 50 Hz. Then they were filtered using a median filter and
 a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to 
 remove noise. Similarly, the acceleration signal was then separated into body 
 and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ).""  The tidy
-table we generate consists of a subste of these features, namele:
+table we generate consists of a subste of these features, namely:
 
 
 subjectID -- the code representing each subject who took part of the study<br>
