@@ -12,7 +12,10 @@ remove noise. Similarly, the acceleration signal was then separated into body
 and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ).""  The tidy
 table we generate consists of a subste of these features, namele:
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> ea77f8bd05014fe63017b8ad4381d1e703d17d5d
 subjectID -- the code representing each subject who took part of the study<br>
 
 activityID -- a character string from activity_lables.txt key table providing a
